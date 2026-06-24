@@ -7,7 +7,10 @@ knitr::opts_chunk$set(
 library(preventr)
 
 ## -----------------------------------------------------------------------------
-make_vignette_dat <- function(n = 10, add_time_and_model = FALSE) {
+make_vignette_dat <- function(add_time_and_model = FALSE) {
+  
+  n <- 10
+  
   dat <- dplyr::tibble(
     # I am specifying `age`, `sex`, `egfr`, and `bmi` manually while letting
     # other parameters vary via `sample()` to facilitate later aspects of this
