@@ -1,7 +1,7 @@
 Package: preventr
 Title: An Implementation of the PREVENT and Pooled Cohort Equations
-Version: 0.12.0
-Date: 2026-06-23
+Version: 0.12.1
+Date: 2026-10-17
 Authors@R: 
     person("Martin", "Mayer", , "mmayer@ebsco.com",
            role = c("aut", "cre", "cph"),
@@ -27,11 +27,11 @@ Suggests: data.table, devtools, knitr, patchwork, purrr, rmarkdown,
 Config/testthat/edition: 3
 Config/Needs/website: rmarkdown
 VignetteBuilder: knitr
-Config/roxygen2/version: 8.0.0
+Config/roxygen2/version: 8.1.0
 NeedsCompilation: no
-Packaged: 2026-06-23 18:48:17 UTC; MartyMayer
+Packaged: 2026-10-17 14:03:43 UTC; MartyMayer
 Author: Martin Mayer [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0003-3210-2274>)
 Maintainer: Martin Mayer <mmayer@ebsco.com>
 Repository: CRAN
-Date/Publication: 2026-06-24 05:20:08 UTC
+Date/Publication: 2026-10-17 14:40:02 UTC
